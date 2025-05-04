@@ -1,0 +1,83 @@
+<!-- news.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>News</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Vishesh Kumar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="research.html">Research Area</a></li>
+          <li class="nav-item"><a class="nav-link active" href="news.html">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-5 mt-5">
+    <section>
+      <div class="container">
+        <h2>Latest News</h2>
+        <div class="accordion" id="newsAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                Paper accepted in CVPR 2025
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#newsAccordion">
+              <div class="accordion-body">
+                <img src="assets/images/news1.jpg" alt="Award" class="img-fluid mb-3">
+                <p>My paper is reccently accepted in CVPR 2025.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Additional news items -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                Paper accepted in CVPR 2025
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#newsAccordion">
+              <div class="accordion-body">
+                <img src="assets/images/news1.jpg" alt="Award" class="img-fluid mb-3">
+                <p>My paper is reccently accepted in CVPR 2025.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer custom-footer text-white fixed-bottom">
+    <div class="container d-flex justify-content-center align-items-center">
+      <span>&copy; 2025 Vishesh Kumar</span>
+      <div class="social-icons ms-3">
+        <a href="https://www.linkedin.com/in/vishesh-rajput-7a277119b/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://twitter.com/vishesh_kumar" target="_blank"><i class="bi bi-twitter"></i></a>
+        <a href="https://github.com/vishesh-kumar" target="_blank"><i class="bi bi-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
